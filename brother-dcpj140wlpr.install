@@ -1,0 +1,7 @@
+post_install() {
+    /opt/brother/Printers/dcpj140w/inf/setupPrintcapij dcpj140w -i
+}
+
+pre_remove() {
+    /opt/brother/Printers/dcpj140w/inf/setupPrintcapij dcpj140w -e
+}

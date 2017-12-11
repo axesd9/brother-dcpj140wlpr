@@ -1,0 +1,10 @@
+--- opt/brother/Printers/dcpj140w/inf/setupPrintcapij.old	2012-05-02 10:51:39.000000000 +0700
++++ opt/brother/Printers/dcpj140w/inf/setupPrintcapij	2017-12-09 18:33:18.687010198 +0700
+@@ -34,7 +34,6 @@
+ 	if [ ! -d $SPOOLER_NAME ]; then
+ 	        mkdir $SPOOLER_NAME
+ 	fi
+-	chown lp $SPOOLER_NAME
+ 	chgrp lp $SPOOLER_NAME
+ 	chmod 700 $SPOOLER_NAME
+ 
